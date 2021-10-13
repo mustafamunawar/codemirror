@@ -1,7 +1,7 @@
 /*this file combines multiple js files  from codemiror 5.63.3
 
 changes:
-	javascript.js: added 'hasOwnProperty' check in addTags()
+	htmlmixed.js: added 'hasOwnProperty' check in addTags()
 	test change
 */	
 
