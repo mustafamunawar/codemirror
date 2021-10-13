@@ -2,6 +2,7 @@
 
 changes:
 	javascript.js: added 'hasOwnProperty' check in addTags()
+	test change
 */	
 
 //file: lib/codemirror.js
