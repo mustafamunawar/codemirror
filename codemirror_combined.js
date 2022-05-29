@@ -8055,8 +8055,7 @@ changes:
     });
 
     // Listen to wheel events in order to try and update the viewport on time.
-    on(d.scroller, "mousewheel", function (e) { return onScrollWheel(cm, e); });
-    on(d.scroller, "DOMMouseScroll", function (e) { return onScrollWheel(cm, e); });
+    on(d.scroller, "wheel", function (e) { return onScrollWheel(cm, e); });
 
     // Prevent wrapper from ever scrolling
     on(d.wrapper, "scroll", function () { return d.wrapper.scrollTop = d.wrapper.scrollLeft = 0; });
