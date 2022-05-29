@@ -4534,7 +4534,8 @@ changes:
     // of the scroll event is removed from the scrollable element.
     // This hack (see related code in patchDisplay) makes sure the
     // element is kept around.
-    if (dy && mac && webkit) {
+	  // && mac && webkit
+    if (dy) {
       outer: for (var cur = e.target, view = display.view; cur != scroll; cur = cur.parentNode) {
         for (var i = 0; i < view.length; i++) {
           if (view[i].node == cur) {
